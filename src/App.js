@@ -8,10 +8,7 @@ function App() {
   let [main,setMain] = useState("");
   let [temp,setTemp] = useState("");
   let [img,setImg] = useState("");
-  
 
-  let url = "https://samples.openweathermap.org/data/2.5/forecast?q=";
-  let apiKey ="&mode=JSON&appid=439d4b804bc8187953eb36d2a8c26a02";
 
   const showData = ()=>{
     const countryName = input;
